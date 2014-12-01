@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="798.0" styleClass="arkaplan" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sayisal.FXMLDocumentController">
+   <children>
+      <Ellipse fx:id="daire1" fill="#ff9f21" layoutX="117.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE" styleClass="daire">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="10.0" offsetX="3.0" offsetY="3.0" radius="7.0" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Button fx:id="btn" layoutX="165.0" layoutY="344.0" mnemonicParsing="false" onAction="#basla" prefHeight="46.0" prefWidth="231.0" styleClass=".btn" text="1. Sayı Gelsin">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font></Button>
+      <Label fx:id="s1" alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="77.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="1" textFill="#fffafa" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Ellipse fx:id="daire2" fill="#ffa321" layoutX="226.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="10.0" offsetX="3.0" offsetY="3.0" radius="7.0" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Ellipse fx:id="daire3" fill="#ffa321" layoutX="337.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="10.0" offsetX="3.0" offsetY="3.0" radius="7.0" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Ellipse fx:id="daire4" fill="#ffa321" layoutX="439.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="10.0" offsetX="3.0" offsetY="3.0" radius="7.0" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Ellipse fx:id="daire5" fill="#ffa321" layoutX="541.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="10.0" offsetX="3.0" offsetY="3.0" radius="7.0" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Ellipse fx:id="daire6" fill="#ffa321" layoutX="645.0" layoutY="282.0" radiusX="40.0" radiusY="40.0" stroke="#eda80c" strokeType="INSIDE">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000080" height="15.0" offsetX="3.0" offsetY="3.0" radius="8.25" width="20.0" />
+         </effect>
+      </Ellipse>
+      <Label fx:id="s2" alignment="CENTER" layoutX="187.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="2" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="s3" alignment="CENTER" layoutX="297.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="3" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="s4" alignment="CENTER" layoutX="399.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="4" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="s5" alignment="CENTER" layoutX="501.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="5" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="s6" alignment="CENTER" layoutX="606.0" layoutY="-60.0" prefHeight="53.0" prefWidth="80.0" text="6" textAlignment="CENTER" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+      </Label>
+      <Button fx:id="siralaBtn" layoutX="470.0" layoutY="348.0" mnemonicParsing="false" onAction="#sirala" prefHeight="46.0" prefWidth="231.0" text="SIRALA">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="renkdegis" layoutX="-2.0" layoutY="347.0" mnemonicParsing="false" onAction="#renkdegistir" prefHeight="46.0" prefWidth="144.0" text="RENK DEĞIŞTIR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

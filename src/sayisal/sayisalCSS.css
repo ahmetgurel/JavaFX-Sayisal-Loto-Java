@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05.Kas.2014, 22:10:22
+    Author     : Furkan
+*/
+
+#s1 {    
+    -fx-text-align:center;
+}
+.arkaplan {
+    -fx-background-image:url("bg.fw.png");  
+}
+.daire {
+    -fx-background-image:url("skl.fw.png");
+}
+.btn {
+    -fx-background-color:red;
+}
